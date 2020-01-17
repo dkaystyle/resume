@@ -21,7 +21,19 @@ body{background: #f3f3f3; font-family: PingFangSC, Microsoft YaHei，Helvetica�
     /*专业能力*/
     .ability{margin: 20px 0; float: left;}
     .blok{margin: 12px 0; float: left;}
-    .abilityimg{width: 80px; height: 80px; margin: 0 20px;}
+    .percentage{width: 60px; height: 60px; margin: 0 20px; border: 10px solid; border-radius: 50%; border-color: #00BCBC;}
+        .tranform{
+            transform:rotate(-45deg);
+            -ms-transform:rotate(-45deg); /* IE 9 */
+            -webkit-transform:rotate(-45deg); /* Safari and Chrome */
+        }
+    .percentage2{width: 60px; height: 60px; margin: 0 20px; border: 10px solid; border-radius: 50%; border-color: #00BCBC #e5e5e5 #00BCBC #00BCBC;}
+    .text10{font-size: 16px; color: #333; line-height: 24px; text-align: center; margin: 18px 0;}
+        .tranform-text10{
+        transform:rotate(45deg);
+        -ms-transform:rotate(45deg); /* IE 9 */
+        -webkit-transform:rotate(45deg); /* Safari and Chrome */
+        }
     .text-blok{width: 80px; height: 62px; margin: 8px 20px;}
     .text3{font-size: 16px; color: #333; line-height: 24px; text-align: center;}
     .text4{font-size: 14px; color: #666; line-height: 22px; text-align: center;}
