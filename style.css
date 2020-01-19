@@ -1,5 +1,24 @@
 body{background: #f3f3f3; font-family: PingFangSC, Microsoft YaHei，Helvetica，Arial;}
+
     p{margin: 0;}
+    tr{height: 40px;}
+    td{padding: 0;}
+    table{border-collapse:collapse; border-spacing:0;}
+
+    /*字体尺寸*/
+    .font-size-x-small{font-size: 12px; line-height: 20px;}
+    .font-size-small{font-size: 14px; line-height: 22px;}
+    .font-size-medium{font-size: 16px; line-height: 24px;}
+    .font-size-large{font-size: 18px; line-height: 26px;}
+    .font-size-x-large{font-size: 24px; line-height: 32px;}
+    /*字体对齐*/
+    .center{text-align: center;}
+    .right{text-align: right;}
+    /*字体粗细*/
+    /*颜色*/
+    .color-black3{color: #333;}
+    .color-black6{color: #666;}
+    .color-black9{color: #999;}
 
     .white{ width:1200px; height:1200px; margin:0 auto; border:1px solid #d9d9d9; background: #fff;}
 
@@ -14,10 +33,11 @@ body{background: #f3f3f3; font-family: PingFangSC, Microsoft YaHei，Helvetica�
     .title{height: 26px; margin: 0 20px;}
     .title2{height: 26px; margin: 0 50px;}
     .yellow2{width: 72px; height: 14px; background:#f9cc10; position: relative; top: 8px;}
-    .text1{font-size: 18px; color: #333; line-height: 26px; position: relative; top: -14px;}
+    .text1{position: relative; top: -14px;}
+ 
     /*求职意向*/
-    .intent{margin: 20px 20px 40px 20px;}
-    .text2{font-size: 14px; color: #333; line-height: 38px;}
+    .table{margin: 20px 20px 40px 20px;}
+
     /*专业能力*/
     .ability{margin: 20px 0; float: left;}
     .blok{margin: 12px 0; float: left;}
@@ -35,26 +55,20 @@ body{background: #f3f3f3; font-family: PingFangSC, Microsoft YaHei，Helvetica�
         -webkit-transform:rotate(45deg); /* Safari and Chrome */
         }
     .text-blok{width: 80px; height: 62px; margin: 8px 20px;}
-    .text3{font-size: 16px; color: #333; line-height: 24px; text-align: center;}
-    .text4{font-size: 14px; color: #666; line-height: 22px; text-align: center;}
-
 
     /*右侧大区块*/
     .content{ width:960px; height:1200px; background: #fff; float: right;}
     /*个人信息*/
     .info{margin: 50px;}
-    .text5{font-size: 24px; color: #333; line-height: 32px; text-align: left;}
-    .text6{font-size: 14px; color: #333; line-height: 22px; text-align: left; margin: 16px 0;}
+    .height{margin: 16px 0 8px;}
     /*工作经验*/
-    .worklarge{margin: 0 50px; float: left;}
-    .line{width: 1px; height: 422px; background: #e5e5e5; margin: 32px 5px 0 5px; float: left;}
-    .work1{margin: 0 100px 0 0; position: relative;}
+    .worklarge{margin: 0 50px;}
+    .line{width: 1px; height: 404px; background: #e5e5e5; margin: 32px 5px 0 5px; float: left;}
+    .work1{margin: 0 100px 0 0;}
     .circle{width: 7px; height: 7px; background: #fff; border: 2px solid #999; border-radius: 50%; position: relative; top: 32px;}
-    .experience{width: 820px; margin: 0 0 0 40px; position: relative;}
-    .job-title{width: 820px; height: 22px; position: relative;}
-    .text7{font-size: 14px; color: #333; line-height: 22px; text-align: left; position: relative;}
-    .text8{font-size: 14px; color: #666; line-height: 22px; text-align: right; position: relative; top: -22px;}
-    .detail{position: relative;}
-    .ol-style{line-height: 28px; text-align: left; margin: 16px 0; padding: 0 20px;}
-    .text9{font-size: 12px; color: #666; line-height: 20px; text-align: left;}
+    .experience{width: 820px; margin: 0 0 0 40px;}
+    .job-title{width: 820px; height: 22px;}
+    .position1{position: relative; top: -22px;}
+    .ol-style{margin: 16px 0; padding: 0 20px;}
+
     
